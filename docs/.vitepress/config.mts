@@ -2,12 +2,6 @@ import {defineConfig} from 'vitepress'
 import nav from "./nav"
 import sidebar from "./sidebar";
 
-const head = [
-    ['link', {
-        rel: 'icon',
-        href: '/logo.png'
-    }]
-]
 // 页脚配置
 const footer = {
     // 消息
@@ -32,8 +26,6 @@ export default defineConfig({
     markdown: {
         lineNumbers: true
     },
-    head,
-    footer,
     // 主题配置
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config

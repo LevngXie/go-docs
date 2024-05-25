@@ -1,9 +1,9 @@
 export default [
     {
-        text: 'Examples',
+        // text: 'Examples',
         items: [
-            {text: 'Markdown Examples', link: '/markdown-examples'},
-            {text: 'Runtime API Examples', link: '/api-examples'}
+            {text: 'Go基础之变量', link: '/basics/变量'},
+            {text: 'Go基础之基本数据类型', link: '/basics/基本数据类型'},
         ]
     }
 ]
